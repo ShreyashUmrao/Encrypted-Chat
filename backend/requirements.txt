@@ -1,0 +1,24 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+cryptography
+pycryptodome
+python-jose[cryptography]
+bcrypt==3.2.2
+passlib==1.7.4
+sqlalchemy
+python-multipart
+psycopg2-binary
+joblib
+scikit-learn
+pandas
+tqdm
+numpy<2
+sentence-transformers==2.7.0
+transformers==4.36.2
+safetensors
+huggingface_hub>=0.19.3
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+-f https://download.pytorch.org/whl/cpu
