@@ -3,12 +3,12 @@
 A modern real-time encrypted chat application built with FastAPI, React, WebSockets, and AES-256 end-to-end encryption.
 Includes multi-room support, JWT authentication, and a custom toxicity detection ML model (retrainable).<br><br><br><br>
 
-Demo
+**Demo**
 
 Live Demo: http://152.67.164.57:3000<br><br><br><br>
 
 
-Features
+**Features**
 
 Security:  
 AES-256 (CBC) encryption for every message  
@@ -34,7 +34,7 @@ PostgreSQL
 Single command startup<br><br><br><br>  
 
 
-Tech Stack  
+**Tech Stack**  
 
 Frontend:  
 React + Vite  
@@ -64,7 +64,7 @@ Docker & Docker Compose
 Nginx (for frontend)<br><br><br><br>  
 
 
-Running With Docker  
+**Running With Docker**  
 
 Add .env file for backend  
 
@@ -77,7 +77,7 @@ Frontend	http://localhost:3000
 PostgreSQL	localhost:5432<br><br><br><br>  
 
 
-Toxicity Model — How to Rebuild & Use  
+**Toxicity Model — How to Rebuild & Use**  
 
 The project expects the SBERT model + classifier to be stored inside:  
 
