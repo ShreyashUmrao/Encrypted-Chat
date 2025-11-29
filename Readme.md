@@ -36,30 +36,30 @@ Single command startup<br><br><br><br>
 
 Tech Stack  
 
-Frontend  
+Frontend:  
 React + Vite  
 Tailwind CSS  
 WebSockets API  
 CryptoJS AES-CBC Encryption  
 
-Backend  
+Backend:  
 FastAPI  
 SQLAlchemy  
 Uvicorn     
 PyCryptodome (AES-256 encryption)  
 python-jose (JWT)  
 
-Machine Learning  
+Machine Learning:   
 SentenceTransformers (SBERT)  
 scikit-learn  
 joblib  
 pandas  
 
-Database  
+Database:  
 PostgreSQL   
 SQLAlchemy ORM  
 
-DevOps  
+DevOps:  
 Docker & Docker Compose  
 Nginx (for frontend)<br><br><br><br>  
 
@@ -69,7 +69,7 @@ Running With Docker
 Add .env file for backend  
 
 Run inside project root:  
-docker-compose up --build  
+docker compose up --build  
 
 This starts:  
 Backend	http://localhost:8000  
@@ -86,7 +86,7 @@ backend/app/models/
     ├── sbert_model.pkl       
     ├── sbert_threshold.txt    
 
-Retrain using uploaded CSV
+Retrain using CSV
 
 Your CSV must contain:  
 text - 	           label  
