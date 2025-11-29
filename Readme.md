@@ -89,8 +89,8 @@ backend/app/models/
 Retrain using uploaded CSV
 
 Your CSV must contain:  
-text	           label  
-Toxic Text           1  
-Non-Toxic Text  	 0  
+text - 	           label  
+Toxic Text -            1  
+Non-Toxic Text -   	    0  
 
 Train model and save model files into /app/models/
