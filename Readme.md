@@ -1,4 +1,4 @@
-EncryptedChat
+**EncryptedChat**
 
 A modern real-time encrypted chat application built with FastAPI, React, WebSockets, and AES-256 end-to-end encryption.
 Includes multi-room support, JWT authentication, and a custom toxicity detection ML model (retrainable).<br><br><br><br>
