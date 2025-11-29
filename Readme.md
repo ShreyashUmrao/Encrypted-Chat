@@ -10,13 +10,13 @@ Live Demo: http://152.67.164.57:3000<br><br><br><br>
 
 Features
 
-Security:
+Security:  
 AES-256 (CBC) encryption for every message  
 Per-room symmetric keys  
 JWT-based user authentication  
 Optional user-level toxicity filtering (hide toxic messages)  
 
-Chat Features:
+Chat Features:  
 Multi-room chat system  
 Real-time messaging using WebSockets  
 Message history saved in PostgreSQL  
@@ -88,9 +88,9 @@ backend/app/models/
 
 Retrain using uploaded CSV
 
-Your CSV must contain:
+Your CSV must contain:  
 text	           label  
-Toxic Text         1  
+Toxic Text           1  
 Non-Toxic Text  	 0  
 
 Train model and save model files into /app/models/
